@@ -6,11 +6,11 @@ This repository provides the source code for the online experiment platform used
 
 ## Contents
 
-- **StudyPlatform:** The `StudyPlatform/` directory contains the Django project source code for the experiment interface, which participants used to rate tumor cell percentages. The `static/` subdirectory houses the study materials, including image patches from different H&E stained tissue slides (licensed under Creative Commons).
+- This directory contains the Django project source code for the experiment interface, which participants used to rate tumor cell percentages. The `static/` subdirectory houses the study materials, including image patches from different H&E stained tissue slides (licensed under Creative Commons).
 
 ## Running the online experiment interface
 
-1. Clone or download this repository and extract the files into a directory of your choice. Afterwards navigate to the `StudyPlatform/` subdirectory.
+1. Clone or download this repository and extract the files into a directory of your choice. Open the extracted folder.
 
 2. Make sure you have Python installed, then create a new virtual environment and install the `requirements.txt` file, e.g. with 
 ```
@@ -27,4 +27,4 @@ python manage.py runserver
 
 ## License
 
-The images located in the ```StudyPlatform/static``` directory were obtained with the necessary rights and modified (e.g., visualization of cell detections) to meet our specific requirements. As a result, we are able to publish these images for public use under the Creative Commons 4.0 BY-NC-SA License. Furthermore, the study user interface was designed using resources from Flaticon.com.
+The images located in the ```./static``` directory were obtained with the necessary rights and modified (e.g., visualization of cell detections) to meet our specific requirements. As a result, we are able to publish these images for public use under the Creative Commons 4.0 BY-NC-SA License. Furthermore, the study user interface was designed using resources from Flaticon.com.
